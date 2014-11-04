@@ -1,5 +1,5 @@
 Vagrant.configure('2') do |config|
-  config.vm.box_url = 'http://workshop.altoros.com/virtual.box'
+  config.vm.box_url = 'http://workshop.altoros.com/virtualbox.box'
   config.vm.box = 'cloudfoundry/bosh-lite'
 
   config.vm.provider :virtualbox do |v, override|
